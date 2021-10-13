@@ -6,7 +6,7 @@
   "homepage": "https://sptgin.github.io/goit-donut-masterclass/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Project-HTML-CSS/"
+    "build": "parcel build src/*.html --public-url /goit-donut-masterclass/"
   },
   "repository": {
     "type": "git",
