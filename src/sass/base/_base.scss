@@ -1,0 +1,96 @@
+:root {
+  --primary-text-color: rgba(46, 37, 32, 1);
+  --input-color: rgba(171, 129, 108, 0.5);
+  --button-background-color: rgba(171, 129, 108, 1);
+  --modal-background-color: rgba(254, 243, 228, 0.9);
+  --accent-background-color: rgba(254, 243, 228, 1);
+  --focus-hover-color: rgb(255, 139, 158);
+  --primary-text-color: rgba(46, 37, 32, 1);
+  --background-color: rgba(255, 255, 255, 1);
+  --read-more-color: rgba(171, 129, 108, 1);
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+  font-family: 'Caveat Brush', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  color: var(--primary-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  vertical-align: top;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  color: var(--primary-text-color);
+  font-family: Caveat Brush;
+  font-size: 24px;
+  line-height: 2.7;
+  align-items: center;
+  vertical-align: top;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 36px;
+    line-height: 1.81;
+  }
+}
+
+.text {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.25;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
+
+ul {
+  text-decoration: none;
+}

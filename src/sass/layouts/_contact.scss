@@ -1,0 +1,29 @@
+.contact {
+  &__container {
+    text-align: center;
+  }
+
+  &__text {
+    margin-bottom: 23px;
+
+    @media screen and (min-width: 1280px) {
+      & {
+        margin-bottom: 21px;
+      }
+    }
+  }
+
+  &__form {
+    @media screen and (min-width: 768px) {
+      & {
+        max-width: 410px;
+      }
+    }
+
+    @media screen and (min-width: 1280px) {
+      & {
+        max-width: 430px;
+      }
+    }
+  }
+}

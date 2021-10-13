@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  z-index: 100;
+  @media screen and (min-width: 1280px) {
+    align-items: center;
+  }
+}
+
+.navigation-list {
+  display: inline-flex;
+  font-size: 18px;
+  @media screen and (max-width: 1279.98px) {
+    display: none;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  &__item:hover,
+  &__item:focus,
+  &__item:active {
+    color: var(--focus-hover-color);
+  }
+}

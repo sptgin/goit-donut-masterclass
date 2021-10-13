@@ -1,0 +1,99 @@
+<div class="background-image">
+    <picture>
+        <source
+            srcset="/images/header/desktop/donuts_desktop.png 1x, /images/header/desktop/donuts_desktop@2x.png 2x"
+            media="(min-width: 1280px)">
+        <source
+            srcset="../src/images/header/tablet/donuts_tablet.png 1x, ../src/images/header/tablet/donuts_tablet@2x.png 2x"
+            media="(min-width: 768px)">
+        <source
+            srcset="../src/images/header/mobile/donuts_mobile.png 1x, ../src/images/header/mobile/donuts_mobile@2x.png 2x"
+            media="(max-width: 767.98px)">
+        <img class="header__donuts" src="/images/header/desktop/donuts_desktop.png" alt="donuts">
+    </picture>
+    <picture>
+        <source
+            srcset="/images/header/desktop/spoon_desktop.png 1x, /images/header/desktop/spoon_desktop@2x.png 2x"
+            media="(min-width: 1280px)">
+        <img class="header__spoon" src="../src/images/header/desktop/spoon_desktop.png" alt="spoon">
+    </picture>
+    </div>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="navigation">
+                <a class="logo" href="#">
+                    <picture>
+                        <source
+                            srcset="../src/images/header/desktop/logo_desktop.png 1x, ../src/images/header/desktop/logo_desktop@2x.png 2x"
+                            media="(min-width: 1280px)">
+                        <source
+                            srcset="../src/images/header/tablet/logo_tablet.png 1x, ../src/images/header/tablet/logo_tablet@2x.png 2x"
+                            media="(min-width: 768px)">
+                        <source
+                            srcset="../src/images/header/mobile/logo_mobile.png 1x, ../src/images/header/mobile/logo_mobile@2x.png 2x"
+                            media="(max-width: 767.98px)">
+                        <img src="../src/images/header/desktop/logo_desktop.png" alt="logo desktop">
+                    </picture>
+                </a>
+                <ul class="list navigation-list" id="menu">
+                    <li class="navigation-list__item"><a class="link navigation__link" href="#about-us">About us</a></li>
+                    <li class="navigation-list__item"><a class="link navigation__link" href="#program">Program</a></li>
+                    <li class="navigation-list__item"><a class="link navigation__link" href="#reviews">Reviews</a></li>
+                    <li class="navigation-list__item"><a class="link navigation__link" href="#contact">Contacts</a></li>
+                </ul>
+                <button class="mobile-menu-btn" data-menu-button>
+                    <svg class="mobile-menu-icon" width="30px" height="16px">
+                        <use class="icon-menu" href="./images/sprite/sprite.svg#icon-menu"></use>
+                        <use class="icon-close" href="./images/sprite/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+        <section class="hero">
+            <div class="container hero__container">
+                <h1 class="hero__tittle">Donut Masterclass<br> with the Donut King</h1>
+                <p class="hero__label">Hosted by Eva Green</p>
+                <a class="button hero__button link" href="#register">Register</a>
+                <ul class="list social-list">
+                    <li class="social-list__item">
+                        <a href="https://twitter.com/" class="social-list__link link" target="_blank"
+                            rel=" noopener noreferrer ">
+                            <svg class="social-list__icon">
+                                <use href="./images/sprite/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="https://instagram.com/" class="social-list__link link" target="_blank" rel=" noopener noreferrer ">
+                            <svg class="social-list__icon">
+                                <use href="./images/sprite/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="https://facebook.com/" class="social-list__link link"  target="_blank" rel=" noopener noreferrer ">
+                            <svg class="social-list__icon">
+                                <use href="./images/sprite/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </header>
+    <div class="mobile-menu" data-menu>
+        <a class="mobile-menu__logo" href="#">
+            <picture>
+                <source
+                    srcset="../src/images/header/menu_mobile_tablet/logo_menu.png 1x, ../src/images/header/menu_mobile_tablet/logo_menu@2x.png 2x">
+                <img src="../src/images/header/menu_mobile_tablet/logo_menu.png" alt="mobile logo">
+            </picture>
+        </a>
+        <ul class="mobmenu-list list">
+            <li class="mobmenu-list__item"><a class="link" href="#about-us">About us</a></li>
+            <li class="mobmenu-list__item"><a class="link" href="#program">Program</a></li>
+            <li class="mobmenu-list__item"><a class="link" href="#reviews">Reviews</a></li>
+            <li class="mobmenu-list__item"><a class="link" href="#contact">Contacts</a></li>
+        </ul>
+    </div>

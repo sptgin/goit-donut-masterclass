@@ -1,0 +1,24 @@
+.main {
+  background-image: url(/images/header/mobile/bg-header_mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 450px;
+  @media screen and (min-width: 768px) {
+    background-image: url(/images/header/tablet/bg-header_tablet.png);
+  }
+  @media screen and (min-width: 1280px) {
+    background-image: url(/images/header/desktop/bg-header_desktop.png);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: url(/images/header/mobile/bg-header_mobile@2x.png);
+    @media screen and (min-width: 768px) and (max-width: 1279.98px) {
+      background-image: url(/images/header/tablet/bg-header_tablet@2x.png);
+      background-size: 100% 600px;
+    }
+    @media screen and (min-width: 1280px) {
+      background-image: url(/images/header/desktop/bg-header_desktop@2x.png);
+      background-size: 100% 1000px;
+    }
+  }
+}

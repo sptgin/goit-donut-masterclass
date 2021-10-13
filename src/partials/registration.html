@@ -1,0 +1,48 @@
+<section id="register" class="registration">
+  <div class="container">
+    <div class="registration__data">
+      <h2 class="registration__title title">Registration</h2>
+      <form class="reg-form">
+        <div class="reg-form__info">
+          <p class="reg-form__time text">
+            May 23, 11:00 <br />
+            New York
+          </p>
+          <p class="reg-form__price text">$ 699</p>
+        </div>
+        <div class="reg-form__view">
+          <p class="reg-form__title text">Apply your personal info for registration</p>
+          <label class="reg-form__label">
+            <input class="form__input" type="text" name="name" id="user_name" placeholder="Your name" pattern=""
+              minlength="3" required />
+          </label>
+          <label class="reg-form__label">
+            <input class="form__input" type="tel" name="phone" id="user_phone" placeholder="Phone number" pattern=""
+              required />
+          </label>
+          <label class="reg-form__label">
+            <input class="form__input" type="email" name="email" placeholder="Email" required />
+          </label>
+        </div>
+        <button type="submit" class="button form__button reg-form__button">Register</button>
+      </form>
+    </div>
+    <div class="registration_bg">
+      <picture class="registration-donut">
+        <source srcset=" ../src/images/registration/tablet/donut_tablet.png 1x,
+          ../src/images/registration/tablet/donut_tablet@2x.png 2x " media="(min-width: 768px)" />
+        <source srcset=" ../src/images/registration/desktop/donut_desktop.png 1x,
+          ../src/images/registration/desktop/donut_desktop@2x.png 2x " media="(min-width: 1280px)" />
+        <img class="registration-donut__img" src="../src/images/registration/desktop/donut_desktop.png" alt="Donut" />
+      </picture>
+      <picture class="registration-confetti">
+        <source srcset=" ../src/images/registration/tablet/confetti_tablet.png 1x,
+          ../src/images/registration/tablet/confetti_tablet@2x.png 2x " media="(min-width: 768px)" />
+        <source srcset=" ../src/images/registration/desktop/confetti_desktop.png 1x,
+          ../src/images/registration/desktop/confetti_desktop@2x.png 2x " media="(min-width: 1280px)" />
+        <img class="registration-confetti__img" src="../src/images/registration/desktop/confetti_desktop.png"
+          alt="Confetti" />
+      </picture>
+    </div>
+  </div>
+</section>
